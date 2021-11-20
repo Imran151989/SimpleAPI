@@ -22,15 +22,12 @@ namespace SimpleAPI.Controllers
         {
             
         }
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
-        {
-            _logger = logger;
-        }
+        
 
         [HttpGet]
         public ActionResult<string> Get(int id)
         {
-            return "Imran Sayyed";
+            return "Imran S";
         }
     }
 }
